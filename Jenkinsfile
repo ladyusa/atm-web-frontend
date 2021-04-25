@@ -2,7 +2,7 @@ pipeline {
     agent {
         docker {
             image 'maven:3-alpine' 
-            args '-p 55555:8090' 
+            args '-p 9900:8090' 
         }
     }
     environment {
